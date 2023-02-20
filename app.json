@@ -6,7 +6,7 @@
 	"env": {
 		"FOOTER": {
 			"description": " ",
-			"required": trur,
+			"required": true,
 			"value": "ᴀꜱᴛʀᴏ-ᴍᴅ ᴘᴜʙʟɪᴄ ꜱᴛᴀʙʟᴇ"
 		},
 		"HOST": {
