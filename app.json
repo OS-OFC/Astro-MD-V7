@@ -1,0 +1,61 @@
+{
+	"name": "astro md",
+	"description": "a simple whatsapp bot",
+	"keywords": [],
+	"stack": "container",
+	"env": {
+		"FOOTER": {
+			"description": " ",
+			"required": trur,
+			"value": "ᴀꜱᴛʀᴏ-ᴍᴅ ᴘᴜʙʟɪᴄ ꜱᴛᴀʙʟᴇ"
+		},
+		"HOST": {
+			"description": " ",
+			"required": true,
+			"value": "heroku"
+		},
+		"CAPTION": {
+			"description": " ",
+			"required": true,
+			"value": "*ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴀꜱᴛʀᴏ-ᴍᴅ*"
+		},
+		"ALIVE_MSG": {
+			"description": " ",
+			"required": true,
+			"value": "."
+		},
+		"LANG": {
+			"description": " ",
+			"required": true,
+			"value": "EN"
+		},
+		"ALIVE_LOGO": {
+			"description": " ",
+			"required": true,
+			"value": "https://i.imgur.com/v8iuP8v.jpg"
+		},
+		"ONLY_GROUP": {
+			"description": " ",
+			"required": true
+		},
+		"SESSION_ID": {
+			"description": " ",
+			"required": true
+		},
+		"INBOX_BL_MSG": {
+			"description": " ",
+			"required": true,
+			"value": "*Inbox not allowed*"
+		},
+		"*PORT*": {
+			"description": " ",
+			"required": true,
+			"value": "8080"
+		}
+	},
+	"addons": [
+		{
+			"plan": "heroku-postgresql"
+		}
+	]
+}
